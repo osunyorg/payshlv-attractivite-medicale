@@ -9,8 +9,8 @@ items:
   target: "/equipe/"
   kind: page
   children: []
-- title: Organisations
-  target: "/organisations/"
+- title: Les lieux de santé
+  target: "/lieux/"
   kind: page
   children: []
 
