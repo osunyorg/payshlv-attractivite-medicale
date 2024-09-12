@@ -5,8 +5,4 @@ items:
   target: "/lieux/"
   kind: page
   children: []
-- title: Médecin en Pays Haut Languedoc
-  target: ''
-  kind: blank
-  children: []
 
