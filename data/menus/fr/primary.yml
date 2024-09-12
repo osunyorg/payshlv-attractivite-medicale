@@ -5,7 +5,7 @@ items:
   target: "/lieux/"
   kind: page
   children: []
-- title: Ma vie de médecin
+- title: Médecin en Pays Haut Languedoc
   target: ''
   kind: blank
   children: []
