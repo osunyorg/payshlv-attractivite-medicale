@@ -5,4 +5,8 @@ items:
   target: "/lieux/"
   kind: page
   children: []
+- title: Ma vie de médecin
+  target: ''
+  kind: blank
+  children: []
 
