@@ -2,7 +2,7 @@
 title: Menu principal
 items:
 - title: Le territoire
-  target: "/lieux/"
+  target: "/le-territoire/"
   kind: page
   children: []
 - title: Accompagnement Médecin
