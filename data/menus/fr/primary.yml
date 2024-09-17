@@ -9,4 +9,8 @@ items:
   target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
   kind: page
   children: []
+- title: Contact
+  target: "/nous-contacter/"
+  kind: page
+  children: []
 
