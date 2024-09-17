@@ -5,4 +5,8 @@ items:
   target: "/lieux/"
   kind: page
   children: []
+- title: Médecin en Pays Haut Languedoc
+  target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
+  kind: page
+  children: []
 
