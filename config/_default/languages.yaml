@@ -9,8 +9,8 @@ fr:
   params:
     social:
   permalinks:
-    organizations: /lieux/:slug/
-    organizations_categories: /lieux/categories/:slug/
+    organizations: /le-territoire/:slug/
+    organizations_categories: /le-territoire/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
