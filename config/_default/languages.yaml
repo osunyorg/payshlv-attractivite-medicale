@@ -9,8 +9,12 @@ fr:
   params:
     social:
   permalinks:
+    posts: /actualites/:year-:month-:day-:slug/
     organizations: /le-territoire/:slug/
     organizations_categories: /le-territoire/categories/:slug/
+    persons: /equipe/:slug/
+    persons_categories: /equipe/categories/:slug/
+    authors: /equipe/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
