@@ -5,12 +5,15 @@ items:
   target: "/le-territoire/"
   kind: page
   children: []
+  file: content/fr/organizations/_index.html
 - title: Accompagnement Médecin
   target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
   kind: page
   children: []
+  file: content/fr/pages/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
 - title: Contact
   target: "/nous-contacter/"
   kind: page
   children: []
+  file: content/fr/pages/nous-contacter/_index.html
 
