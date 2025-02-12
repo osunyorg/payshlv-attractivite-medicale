@@ -2,6 +2,11 @@
 
 baseURL: https://attractivite-medicale.payshlv.osuny.site
 
+## OSUNY
+osuny:
+  website:
+    id: 70832a72-9248-4c27-8a15-1b86612a8b5d
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
