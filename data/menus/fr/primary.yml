@@ -1,25 +1,116 @@
 ---
 title: Menu principal
 items:
-- title: Le territoire
+- title: Pourquoi choisir le Pays HLV ?
   target: "/le-territoire/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Engagement territorial pour la santé
+    target: "/le-territoire/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/organizations"
+    file: content/fr/organizations/_index.html
+  - title: Carte interactive
+    target: "/le-territoire/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/organizations"
+    file: content/fr/organizations/_index.html
+  - title: Découvrir le territoire
+    target: "/le-territoire/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/organizations"
+    file: content/fr/organizations/_index.html
+  - title: Liste des postes recherchés (médecins, autres professionnels)
+    target: "/le-territoire/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/organizations"
+    file: content/fr/organizations/_index.html
   path: "/organizations"
   file: content/fr/organizations/_index.html
-- title: Accompagnement Médecin
+- title: Notre accompagnement
   target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Service sur mesure
+    target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/medecin-en-pays-haut-languedoc-et-vignobles"
+    file: content/fr/pages/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
+  - title: Accompagnement administratif, juridique, comptable, Méd'In Occitanie
+    target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/medecin-en-pays-haut-languedoc-et-vignobles"
+    file: content/fr/pages/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
+  - title: Avantages financiers à l'installation (zonage)
+    target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/medecin-en-pays-haut-languedoc-et-vignobles"
+    file: content/fr/pages/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
   path: "/pages/medecin-en-pays-haut-languedoc-et-vignobles"
   file: content/fr/pages/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
+- title: Ressources utiles
+  target: "/expositions/"
+  kind: page
+  new_tab: false
+  children:
+  - title: Des ressources pour faciliter votre projet professionnel
+    target: "/expositions/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/exhibitions"
+    file: content/fr/exhibitions/_index.html
+  - title: Témoignages
+    target: "/expositions/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/exhibitions"
+    file: content/fr/exhibitions/_index.html
+  path: "/exhibitions"
+  file: content/fr/exhibitions/_index.html
+- title: Agenda
+  target: "/agenda/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/events"
+  file: content/fr/events/_index.html
 - title: Contact
   target: "/nous-contacter/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Évaluer votre installation
+    target: "/nous-contacter/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/nous-contacter"
+    file: content/fr/pages/nous-contacter/_index.html
+  - title: Partenaires
+    target: "/nous-contacter/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/nous-contacter"
+    file: content/fr/pages/nous-contacter/_index.html
   path: "/pages/nous-contacter"
   file: content/fr/pages/nous-contacter/_index.html
 
