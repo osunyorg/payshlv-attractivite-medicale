@@ -42,12 +42,12 @@ items:
   new_tab: false
   children:
   - title: Service sur mesure
-    target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
+    target: "/service-sur-mesure/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/medecin-en-pays-haut-languedoc-et-vignobles"
-    file: content/fr/pages/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
+    path: "/pages/service-sur-mesure"
+    file: content/fr/pages/service-sur-mesure/_index.html
   - title: Accompagnement administratif, juridique, comptable, Méd'In Occitanie
     target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
     kind: page
@@ -56,12 +56,12 @@ items:
     path: "/pages/medecin-en-pays-haut-languedoc-et-vignobles"
     file: content/fr/pages/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
   - title: Avantages financiers à l'installation (zonage)
-    target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
+    target: "/avantages-financiers-a-linstallation/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/medecin-en-pays-haut-languedoc-et-vignobles"
-    file: content/fr/pages/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
+    path: "/pages/avantages-financiers-a-linstallation"
+    file: content/fr/pages/avantages-financiers-a-linstallation/_index.html
   path: "/pages/medecin-en-pays-haut-languedoc-et-vignobles"
   file: content/fr/pages/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
 - title: Ressources utiles
@@ -70,19 +70,19 @@ items:
   new_tab: false
   children:
   - title: Des ressources pour faciliter votre projet professionnel
-    target: "/expositions/"
+    target: "/ressources/"
     kind: page
     new_tab: false
     children: []
-    path: "/exhibitions"
-    file: content/fr/exhibitions/_index.html
+    path: "/pages/ressources"
+    file: content/fr/pages/ressources/_index.html
   - title: Témoignages
-    target: "/expositions/"
+    target: "/temoignages/"
     kind: page
     new_tab: false
     children: []
-    path: "/exhibitions"
-    file: content/fr/exhibitions/_index.html
+    path: "/pages/temoignages"
+    file: content/fr/pages/temoignages/_index.html
   path: "/exhibitions"
   file: content/fr/exhibitions/_index.html
 - title: Agenda
@@ -105,12 +105,12 @@ items:
     path: "/pages/nous-contacter"
     file: content/fr/pages/nous-contacter/_index.html
   - title: Partenaires
-    target: "/nous-contacter/"
+    target: "/partenaires/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/nous-contacter"
-    file: content/fr/pages/nous-contacter/_index.html
+    path: "/pages/partenaires"
+    file: content/fr/pages/partenaires/_index.html
   path: "/pages/nous-contacter"
   file: content/fr/pages/nous-contacter/_index.html
 
