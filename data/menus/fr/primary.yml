@@ -28,12 +28,12 @@ items:
     path: "/organizations"
     file: content/fr/organizations/_index.html
   - title: Liste des postes recherchés (médecins, autres professionnels)
-    target: "/liste-des-postes-recherches/"
+    target: "/offres-d-emploi/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/liste-des-postes-recherches"
-    file: content/fr/pages/liste-des-postes-recherches/_index.html
+    path: "/jobs"
+    file: content/fr/jobs/_index.html
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Notre accompagnement
