@@ -1,7 +1,52 @@
-$heading-font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif
-$body-font-family: $heading-font-family
+// colors
+$color-background: #FFFCF7
+$color-border: #B3BFBF
+$color-accent: #005C73
+$color-text: #00313D
 
-$header-background: none
-$header-border-bottom-width: 0
-$hero-background-color: none
+// site colors
+$site-light-green: #EAF3D2
+
+// typography
+$body-font-family: "Atkinson Hyperlegible"
+$heading-font-family: "Bricolage Grotesque"
+
+$h5-font-family: $body-font-family
+$h2-weight: 400
+
+// lead
+$lead-hero-font-family: $body-font-family
+$lead-hero-size: pxToRem(20)
+$lead-hero-size-desktop: $lead-hero-size
+$lead-hero-line-height: 150%
+$lead-hero-line-height-desktop: $lead-hero-line-height
+
+// COMPONENTS
+// btn | button
+$btn-border-radius: 0
+// header
+$header-background: $color-background
+$header-border-bottom-width: 1px
+$header-logo-height: pxToRem(62)
+$header-nav-padding-y-desktop: pxToRem(16)
+
+// hero
+$hero-background-color: $site-light-green
+
+// footer
 $footer-background-color: none
+$footer-logo-height: pxToRem(62)
+
+// BLOCKS
+// links
+$block-links-card-background: none
+$block-links-card-hover-background: $block-links-card-background
+$block-links-card-hover-color: var(--color-text)
+
+// features
+$block-features-icon-max-width: columns(2.25)
+
+// call to action | cta
+$block-call-to-action-button-background: var(--color-accent)
+$block-call-to-action-button-hover-background: var(--color-text)
+$block-call-to-action-all-actions-as-buttons: true
