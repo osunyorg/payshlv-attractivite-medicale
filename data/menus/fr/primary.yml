@@ -7,19 +7,19 @@ items:
   new_tab: false
   children:
   - title: Engagement territorial pour la santé
-    target: "/le-territoire/"
+    target: "/engagement-territorial-pour-la-sante/"
     kind: page
     new_tab: false
     children: []
-    path: "/organizations"
-    file: content/fr/organizations/_index.html
+    path: "/pages/engagement-territorial-pour-la-sante"
+    file: content/fr/pages/engagement-territorial-pour-la-sante/_index.html
   - title: Carte interactive
-    target: "/le-territoire/"
+    target: "/carte-interactive/"
     kind: page
     new_tab: false
     children: []
-    path: "/organizations"
-    file: content/fr/organizations/_index.html
+    path: "/pages/carte-interactive"
+    file: content/fr/pages/carte-interactive/_index.html
   - title: Découvrir le territoire
     target: "/le-territoire/"
     kind: page
@@ -28,12 +28,12 @@ items:
     path: "/organizations"
     file: content/fr/organizations/_index.html
   - title: Liste des postes recherchés (médecins, autres professionnels)
-    target: "/le-territoire/"
+    target: "/liste-des-postes-recherches/"
     kind: page
     new_tab: false
     children: []
-    path: "/organizations"
-    file: content/fr/organizations/_index.html
+    path: "/pages/liste-des-postes-recherches"
+    file: content/fr/pages/liste-des-postes-recherches/_index.html
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Notre accompagnement
