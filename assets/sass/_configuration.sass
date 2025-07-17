@@ -1,18 +1,26 @@
 // colors
 $color-background: #FFFCF7
-$color-border: #B3BFBF
+$color-border: rgba(#00313D4D, 0.3)
 $color-accent: #005C73
 $color-text: #00313D
 
 // site colors
+$site-blue: #007B99
+$site-dark-green: #405700
+$site-green: #5D7F00
 $site-light-green: #EAF3D2
+$site-orange: #B75B00
+$site-purple: #832161
+$site-yellow: #F4D06F
 
 // typography
 $body-font-family: "Atkinson Hyperlegible"
 $heading-font-family: "Bricolage Grotesque"
 
-$h5-font-family: $body-font-family
+$body-line-height: 150%
+
 $h2-weight: 400
+$h5-font-family: $body-font-family
 
 // lead
 $lead-hero-font-family: $body-font-family
@@ -24,6 +32,8 @@ $lead-hero-line-height-desktop: $lead-hero-line-height
 // COMPONENTS
 // btn | button
 $btn-border-radius: 0
+$btn-padding-desktop: pxToRem(20) pxToRem(32)
+
 // header
 $header-background: $color-background
 $header-border-bottom-width: 1px
@@ -38,6 +48,8 @@ $footer-background-color: none
 $footer-logo-height: pxToRem(62)
 
 // BLOCKS
+$block-space-y-desktop: pxToRem(128)
+
 // links
 $block-links-card-background: none
 $block-links-card-hover-background: $block-links-card-background
@@ -50,3 +62,13 @@ $block-features-icon-max-width: columns(2.25)
 $block-call-to-action-button-background: var(--color-accent)
 $block-call-to-action-button-hover-background: var(--color-text)
 $block-call-to-action-all-actions-as-buttons: true
+
+// video
+$block-video-background: transparent
+
+// testimonials
+$block-testimonials-xl-font-size: pxToRem(40)
+$block-testimonials-xl-line-height: 150%
+$block-testimonials-xl-font-size-long-text: $block-testimonials-xl-font-size
+$block-testimonials-xl-line-height-long-text: $block-testimonials-xl-line-height
+$block-testimonials-color: $site-purple

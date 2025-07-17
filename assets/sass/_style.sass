@@ -1,13 +1,199 @@
 // COMPONENTS
+// header
+header#document-header
+    .upper-menu
+        .nav-level-1-
+            li:last-child a
+                @extend .button
+                @extend .button--accent
+            @include media-breakpoint-up(desktop)
+                justify-content: space-between
+                gap: $spacing-4
+                li
+                    &:nth-child(2)
+                        margin-right: auto
+                    &:nth-child(3)
+                        margin-left: auto
+
+// footer
 footer#document-footer
     background:
         image: url('/assets/images/waves.svg')
         size: cover
         repeat: no-repeat
 
+// button
+.button--light
+    @extend .button
+    --btn-color: #{$color-text}
+    --btn-background: #{$color-background}
+    --btn-border: #{$btn-border-width} solid #B0D6DF
+    --btn-hover-color: var(--btn-color)
+    --btn-hover-background: #{alphaColor(#007B9980, 0.5)}
+    --btn-hover-border: var(--btn-border)
+    transition: all 0.3s ease
+    &:hover
+        text-decoration: underline
+
 // SECTIONS
+//home
 .page__home
     @include media-breakpoint-up(desktop)
         .hero
+            border-bottom: 1px solid var(--color-border)
+            h1
+                em
+                    font-style: normal
+                    &:first-of-type
+                    color: $site-dark-green
+                    &:last-of-type
+                        color: $site-purple
+            hgroup p:first-of-type
+                margin-top: space(8)
+                + p
+                    margin-top: 0
             figure
                 width: columns(6)
+    .block
+        &:not(:first-child, .block-title)
+            border-top: 1px solid var(--color-border)
+            .top
+                padding-top: $spacing-5
+        &-title,
+        &-testimonials
+            + .block
+                border-top: 0
+        &-features,
+        &-testimonials
+            margin-bottom: $spacing-4
+            + .block-call_to_action--no_background
+                border-top: none
+                margin-top: $spacing-4
+                .block-content
+                    padding-bottom: 0
+                    padding-top: 0
+        &-key_figures
+            ul
+                @include grid(6, desktop)
+                li
+                    &:nth-child(4n + 1) span
+                        color: $site-dark-green
+                    &:nth-child(4n + 2) span
+                        color: $site-purple
+                    &:nth-child(4n + 3) span
+                        color: $site-orange
+                    &:nth-child(4n + 4) span
+                        color: $site-blue
+                    @include media-breakpoint-up(desktop)
+                        @include media-breakpoint-down(xxl)
+                            @include meta
+        &-call_to_action
+            .call_to_action--with-image 
+                .description
+                    color: $site-orange
+        &-video
+            .block-title
+                @include h3
+                color: $site-orange
+                text-transform: none
+                font-weight: bold
+        &-agenda
+            background-color: $site-yellow
+            padding-bottom: $spacing-5
+            padding-top: $spacing-5
+            position: relative
+            &::before
+                content: ''
+                background:
+                    image: url("/assets/images/agenda_background.png")
+                    repeat: no-repeat
+                    size: contain
+                    position: right
+                bottom: 0
+                height: 100%
+                left: 0
+                mix-blend-mode: multiply
+                pointer-events: none
+                position: absolute
+                right: $spacing-5
+            .block-content
+                display: flex
+                flex-direction: column
+                .top
+                    margin-bottom: 0
+                    order: 2
+                .block-title a
+                    @extend .button
+                    @extend .button--accent
+                    &::after
+                        content: none
+            @include media-breakpoint-up(desktop)
+                padding-bottom: $spacing-6
+                padding-top: $spacing-6
+        &-class-h5.block-title
+            background-color: $site-yellow
+            padding-top: $spacing-5
+            margin-bottom: 0
+            h2
+                @include h5
+            + .block-agenda
+                margin-top: 0
+                padding-top: $spacing-5
+        &-links
+            .block-title
+                @include h2
+                color: $site-green
+    &.full-width .block-links 
+        .top
+            display: block
+            .block-title
+                width: columns(7)
+// BLOCKS
+// features
+.block-features
+    @include in-page-without-sidebar
+        ul
+            @include grid(4)
+
+//events
+.block-agenda
+    .events
+        .event
+            padding-top: space(8)
+            &:where(:not(:last-child))
+                margin-bottom: 0
+            .event-dates
+                @include body-text
+            .event-time
+                @include small
+            .event-dates
+                font-weight: bold
+            .event-content
+                flex: 1
+            .media:empty
+                display: none
+
+// video
+.block-video
+    &--player .lazy-video-player
+        &::after
+            backdrop-filter: blur(4px) grayscale(1) !important
+        button
+            height: pxToRem(72)
+            width: pxToRem(72)
+            &::before
+                font-size: var(--small-size)
+
+// call to action | cta
+.block-call_to_action
+    .call_to_action
+        .actions
+            a:not(:first-of-type)
+                @extend .button--light
+
+// testimonials
+.block-testimonials
+    .testimonial 
+        @include in-page-without-sidebar
+            padding-left: 0
+            width: columns(8)
