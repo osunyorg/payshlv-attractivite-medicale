@@ -1,8 +1,42 @@
 // COMPONENTS
+// nav a11y
+.nav-accessibility
+    display: none
 // header
 header#document-header
+    display: flex
+    flex-direction: column
+    .phlv-partners--header
+        @include container
+        border-bottom: 1px solid var(--color-border)
+        order: -2
+        padding-bottom: space(4)
+        padding-top: space(4)
+        ul
+            img
+                height: pxToRem(42)
+                @include media-breakpoint-up(desktop)
+                    height: pxToRem(63)
+            + *
+                margin-top: $spacing-2
+            @include media-breakpoint-down(desktop)
+                justify-content: center
+        p
+            font-size: pxToRem(14)
+            line-height: pxToRem(18)
+            margin-left: auto
+            margin-right: auto
+            text-align: center
+            @include media-breakpoint-up(desktop)
+                line-height: pxToRem(24)
+            @include media-breakpoint-up(xxl)
+                max-width: columns(7)
+    &.is-sticky,
+    html.is-scrolling-down &
+        .phlv-partners--header
+            display: none
     .upper-menu
-        .nav-level-1-
+        .nav-level-1
             li:last-child a
                 @extend .button
                 @extend .button--accent
@@ -21,6 +55,43 @@ footer#document-footer
         image: url('/assets/images/waves.svg')
         size: cover
         repeat: no-repeat
+.phlv-partners--footer
+    border-top: 1px solid var(--color-border)
+    padding-bottom: space(8)
+    padding-top: space(8)
+    ul
+        img
+            height: pxToRem(87)
+        li
+            mix-blend-mode: darken
+            &:last-child img
+                height: pxToRem(58)
+
+// partners
+.phlv-partners
+    @include container
+    position: relative
+    &::before
+        background:
+            image: url('/assets/images/partners/texture.png')
+            size: cover
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        height: 100%
+        opacity: 0.1
+        width: 100%
+        z-index: -1
+    ul
+        @include list-reset
+        align-items: center
+        display: flex
+        flex-wrap: wrap
+        gap: space(4)
+        width: 100%
+        @include media-breakpoint-up(desktop)
+            justify-content: center
 
 // button
 .button--light
@@ -38,20 +109,20 @@ footer#document-footer
 // SECTIONS
 //home
 .page__home
-    @include media-breakpoint-up(desktop)
-        .hero
-            border-bottom: 1px solid var(--color-border)
-            h1
-                em
-                    font-style: normal
-                    &:first-of-type
-                    color: $site-dark-green
-                    &:last-of-type
-                        color: $site-purple
-            hgroup p:first-of-type
-                margin-top: space(8)
-                + p
-                    margin-top: 0
+    .hero
+        border-bottom: 1px solid var(--color-border)
+        h1
+            em
+                font-style: normal
+                &:first-of-type
+                color: $site-dark-green
+                &:last-of-type
+                    color: $site-purple
+        hgroup p:first-of-type
+            margin-top: space(8)
+            + p
+                margin-top: 0
+        @include media-breakpoint-up(desktop)
             figure
                 width: columns(6)
     .block
@@ -74,6 +145,7 @@ footer#document-footer
                     padding-top: 0
         &-key_figures
             ul
+                @include grid(2)
                 @include grid(6, desktop)
                 li
                     &:nth-child(4n + 1) span
@@ -144,8 +216,9 @@ footer#document-footer
                 @include h2
                 color: $site-green
     &.full-width .block-links 
-        .top
-            display: block
+        @include media-breakpoint-up(desktop)
+            .top
+                display: block
             .block-title
                 width: columns(7)
 // BLOCKS
