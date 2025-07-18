@@ -37,33 +37,33 @@ items:
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Notre accompagnement
-  target: "/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles/"
+  target: "/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/"
   kind: page
   new_tab: false
   children:
   - title: Service sur mesure
-    target: "/pourquoi-choisir-le-pays-hlv/service-sur-mesure/"
+    target: "/notre-accompagnement/service-sur-mesure/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/pourquoi-choisir-le-pays-hlv/service-sur-mesure"
-    file: content/fr/pages/pourquoi-choisir-le-pays-hlv/service-sur-mesure/_index.html
+    path: "/pages/notre-accompagnement/service-sur-mesure"
+    file: content/fr/pages/notre-accompagnement/service-sur-mesure/_index.html
   - title: Accompagnement administratif, juridique, comptable, Méd'In Occitanie
-    target: "/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles/"
+    target: "/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles"
-    file: content/fr/pages/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
+    path: "/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles"
+    file: content/fr/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
   - title: Avantages financiers à l'installation (zonage)
-    target: "/pourquoi-choisir-le-pays-hlv/avantages-financiers-a-linstallation/"
+    target: "/notre-accompagnement/avantages-financiers-a-linstallation/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/pourquoi-choisir-le-pays-hlv/avantages-financiers-a-linstallation"
-    file: content/fr/pages/pourquoi-choisir-le-pays-hlv/avantages-financiers-a-linstallation/_index.html
-  path: "/pages/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles"
-  file: content/fr/pages/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
+    path: "/pages/notre-accompagnement/avantages-financiers-a-linstallation"
+    file: content/fr/pages/notre-accompagnement/avantages-financiers-a-linstallation/_index.html
+  path: "/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles"
+  file: content/fr/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
 - title: Agenda
   target: "/agenda/"
   kind: page
