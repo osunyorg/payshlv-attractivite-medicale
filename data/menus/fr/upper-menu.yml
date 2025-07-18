@@ -17,10 +17,10 @@ items:
   new_tab: false
   children: []
 - title: Évaluer votre installation
-  target: "/nous-contacter/"
+  target: "/contact/nous-contacter/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/nous-contacter"
-  file: content/fr/pages/nous-contacter/_index.html
+  path: "/pages/contact/nous-contacter"
+  file: content/fr/pages/contact/nous-contacter/_index.html
 
