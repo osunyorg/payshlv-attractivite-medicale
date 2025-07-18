@@ -1,0 +1,14 @@
+---
+title: Liens sociaux
+items:
+- title: Contactez-nous par mail
+  target: mailto:mail@com
+  kind: url
+  new_tab: false
+  children: []
+- title: Facebook
+  target: https://fr-fr.facebook.com/Destination-Haut-Languedoc-et-Vignobles-1396350670690498/
+  kind: url
+  new_tab: true
+  children: []
+
