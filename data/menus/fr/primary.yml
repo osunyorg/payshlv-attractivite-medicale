@@ -2,33 +2,33 @@
 title: Menu principal
 items:
 - title: Pourquoi choisir le Pays HLV ?
-  target: "/le-territoire/"
+  target: "/pourquoi-choisir-le-pays-hlv/le-territoire/"
   kind: page
   new_tab: false
   children:
   - title: Engagement territorial pour la santé
-    target: "/engagement-territorial-pour-la-sante/"
+    target: "/pourquoi-choisir-le-pays-hlv/engagement-territorial-pour-la-sante/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/engagement-territorial-pour-la-sante"
-    file: content/fr/pages/engagement-territorial-pour-la-sante/_index.html
+    path: "/pages/pourquoi-choisir-le-pays-hlv/engagement-territorial-pour-la-sante"
+    file: content/fr/pages/pourquoi-choisir-le-pays-hlv/engagement-territorial-pour-la-sante/_index.html
   - title: Carte interactive
-    target: "/carte-interactive/"
+    target: "/pourquoi-choisir-le-pays-hlv/carte-interactive/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/carte-interactive"
-    file: content/fr/pages/carte-interactive/_index.html
+    path: "/pages/pourquoi-choisir-le-pays-hlv/carte-interactive"
+    file: content/fr/pages/pourquoi-choisir-le-pays-hlv/carte-interactive/_index.html
   - title: Découvrir le territoire
-    target: "/le-territoire/"
+    target: "/pourquoi-choisir-le-pays-hlv/le-territoire/"
     kind: page
     new_tab: false
     children: []
     path: "/organizations"
     file: content/fr/organizations/_index.html
   - title: Liste des postes recherchés (médecins, autres professionnels)
-    target: "/offres-d-emploi/"
+    target: "/pourquoi-choisir-le-pays-hlv/offres-d-emploi/"
     kind: page
     new_tab: false
     children: []
@@ -37,33 +37,33 @@ items:
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Notre accompagnement
-  target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
+  target: "/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles/"
   kind: page
   new_tab: false
   children:
   - title: Service sur mesure
-    target: "/service-sur-mesure/"
+    target: "/pourquoi-choisir-le-pays-hlv/service-sur-mesure/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/service-sur-mesure"
-    file: content/fr/pages/service-sur-mesure/_index.html
+    path: "/pages/pourquoi-choisir-le-pays-hlv/service-sur-mesure"
+    file: content/fr/pages/pourquoi-choisir-le-pays-hlv/service-sur-mesure/_index.html
   - title: Accompagnement administratif, juridique, comptable, Méd'In Occitanie
-    target: "/medecin-en-pays-haut-languedoc-et-vignobles/"
+    target: "/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/medecin-en-pays-haut-languedoc-et-vignobles"
-    file: content/fr/pages/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
+    path: "/pages/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles"
+    file: content/fr/pages/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
   - title: Avantages financiers à l'installation (zonage)
-    target: "/avantages-financiers-a-linstallation/"
+    target: "/pourquoi-choisir-le-pays-hlv/avantages-financiers-a-linstallation/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/avantages-financiers-a-linstallation"
-    file: content/fr/pages/avantages-financiers-a-linstallation/_index.html
-  path: "/pages/medecin-en-pays-haut-languedoc-et-vignobles"
-  file: content/fr/pages/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
+    path: "/pages/pourquoi-choisir-le-pays-hlv/avantages-financiers-a-linstallation"
+    file: content/fr/pages/pourquoi-choisir-le-pays-hlv/avantages-financiers-a-linstallation/_index.html
+  path: "/pages/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles"
+  file: content/fr/pages/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
 - title: Agenda
   target: "/agenda/"
   kind: page
