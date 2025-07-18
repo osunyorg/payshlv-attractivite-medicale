@@ -5,3 +5,18 @@
 @include font-face("Atkinson Hyperlegible", AtkinsonHyperlegible-Italic, $style: italic)
 @include font-face("Atkinson Hyperlegible", AtkinsonHyperlegible-Bold, $weight: bold)
 @include font-face("Atkinson Hyperlegible", AtkinsonHyperlegible-BoldItalic, $weight: bold, $style: italic)
+
+
+// Icons
+@font-face
+    font-display: block
+    font-family: 'Icons-site'
+    font-style: normal
+    font-weight: 400
+    src: url('/assets/fonts/icons/icomoon.woff') format("woff"), url('/assets/fonts/icons/icomoon.eot') format("eot"), url('/assets/fonts/icons/icomoon.tsvgtf') format("svg")
+
+@mixin icon-site($icon)
+    @include icon
+    content: map-get($icons-site, $icon)
+    font-family: 'Icons-site'
+    font-size: pxToRem(11)

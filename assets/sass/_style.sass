@@ -2,6 +2,7 @@
 // nav a11y
 .nav-accessibility
     display: none
+
 // header
 header#document-header
     display: flex
@@ -55,6 +56,37 @@ footer#document-footer
         image: url('/assets/images/waves.svg')
         size: cover
         repeat: no-repeat
+    .footer-credit 
+        a[target="_blank"]::after
+            @include icon-site('icon-external')
+            margin-left: space()
+            display: inline-block
+    .nav-social
+        li
+            &:first-child::before
+                @include icon-site('icon-email')
+                margin-right: $spacing-1
+    .footer-social
+        li
+            display: flex
+            &::after
+                margin-right: $spacing-2
+                margin-left: 0
+                @include media-breakpoint-up(desktop)
+                    order: -1
+            &.youtube::after
+                @include icon-site('icon-youtube')
+            &.facebook::after
+                @include icon-site('icon-facebook')
+    @include media-breakpoint-up(desktop)
+        padding-bottom: space(18)
+        .footer-legals
+            .footer-credit
+                bottom: $spacing-1
+                margin-top: 0
+                position: absolute
+                left: 50%
+                transform: translateX(-50%)
 .phlv-partners--footer
     border-top: 1px solid var(--color-border)
     padding-bottom: space(8)
@@ -94,6 +126,10 @@ footer#document-footer
             justify-content: center
 
 // button
+.button:hover
+    text-decoration: underline
+.button--accent
+    --btn-hover-background: #003745
 .button--light
     @extend .button
     --btn-color: #{$color-text}
@@ -102,9 +138,6 @@ footer#document-footer
     --btn-hover-color: var(--btn-color)
     --btn-hover-background: #{alphaColor(#007B9980, 0.5)}
     --btn-hover-border: var(--btn-border)
-    transition: all 0.3s ease
-    &:hover
-        text-decoration: underline
 
 // SECTIONS
 //home
@@ -125,6 +158,16 @@ footer#document-footer
         @include media-breakpoint-up(desktop)
             figure
                 width: columns(6)
+    &.full-width,
+    &:not(.full-width)
+        .block .top .block-title
+            @include h4
+        .block-links
+            @include media-breakpoint-up(desktop)
+                .top
+                    display: block
+                    .block-title
+                        width: columns(7)
     .block
         &:not(:first-child, .block-title)
             border-top: 1px solid var(--color-border)
@@ -164,7 +207,7 @@ footer#document-footer
                 .description
                     color: $site-orange
         &-video
-            .block-title
+            .block-content .top .block-title
                 @include h3
                 color: $site-orange
                 text-transform: none
@@ -199,6 +242,12 @@ footer#document-footer
                     @extend .button--accent
                     &::after
                         content: none
+            + .block
+                border-top: none
+                margin-top: 0
+                padding-top: 0
+                .top
+                    padding-top: 0
             @include media-breakpoint-up(desktop)
                 padding-bottom: $spacing-6
                 padding-top: $spacing-6
@@ -207,12 +256,12 @@ footer#document-footer
             padding-top: $spacing-5
             margin-bottom: 0
             h2
-                @include h5
+                @include h4
             + .block-agenda
                 margin-top: 0
                 padding-top: $spacing-5
         &-links
-            .block-title
+            .block-content .top > .block-title
                 @include h2
                 color: $site-green
             .links
@@ -238,13 +287,15 @@ footer#document-footer
                     padding-top: space(8)
                     li::before
                         top: space(-8)
-    &.full-width .block-links 
-        @include media-breakpoint-up(desktop)
-            .top
-                display: block
-                .block-title
-                    width: columns(7)
 // BLOCKS
+// chapter
+.block-chapter 
+    .chapter
+        figure
+            margin-bottom: 0
+            margin-top: $spacing-4
+            order: 2
+
 // features
 .block-features
     @include in-page-without-sidebar
@@ -286,6 +337,11 @@ footer#document-footer
         .actions
             a:not(:first-of-type)
                 @extend .button--light
+    @include in-page-with-sidebar
+        .container
+            padding-right: 0
+        .description p
+            font-family: $body-font-family
 
 // testimonials
 .block-testimonials

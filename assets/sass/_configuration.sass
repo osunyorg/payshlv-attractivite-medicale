@@ -20,7 +20,18 @@ $heading-font-family: "Bricolage Grotesque"
 $body-line-height: 150%
 
 $h2-weight: 400
-$h5-font-family: $body-font-family
+$h5-weight: bold
+
+$h4-font-family: $body-font-family
+$h4-size-desktop: pxToRem(22)
+$h4-line-height: 150%
+$h4-weight: 400
+$h4-style: normal
+$h4-letter-spacing: 0.88px
+$h4-text-transform: uppercase
+
+// meta
+$meta-font-family: $body-font-family
 
 // lead
 $lead-hero-font-family: $body-font-family
@@ -40,6 +51,8 @@ $header-border-bottom-width: 1px
 $header-logo-height: pxToRem(62)
 $header-nav-padding-y-desktop: pxToRem(16)
 
+$search-button-header-text: true
+
 // hero
 $hero-background-color: $site-light-green
 
@@ -49,6 +62,10 @@ $footer-logo-height: pxToRem(62)
 
 // BLOCKS
 $block-space-y-desktop: pxToRem(128)
+
+// chapter
+$block-chapter-layout-alt-background: $site-light-green
+$block-chapter-layout-alt-color: var(--color-text)
 
 // links
 $block-links-card-background: none
@@ -63,6 +80,13 @@ $block-call-to-action-button-background: var(--color-accent)
 $block-call-to-action-button-hover-background: var(--color-text)
 $block-call-to-action-all-actions-as-buttons: true
 
+$block-call-to-action-accent-background: $site-yellow
+$block-call-to-action-accent-color: var(--color-text)
+$block-call-to-action-accent-button-background: $block-call-to-action-button-background
+$block-call-to-action-accent-button-color: var(--color-background)
+$block-call-to-action-accent-button-hover-background: $block-call-to-action-button-hover-background
+$block-call-to-action-accent-button-hover-color: $block-call-to-action-accent-button-color
+
 // video
 $block-video-background: transparent
 
@@ -72,3 +96,10 @@ $block-testimonials-xl-line-height: 150%
 $block-testimonials-xl-font-size-long-text: $block-testimonials-xl-font-size
 $block-testimonials-xl-line-height-long-text: $block-testimonials-xl-line-height
 $block-testimonials-color: $site-purple
+
+// ICONS
+$icons-site: ()
+$icons-site: map-merge($icons-site, ("icon-email": "\e900"))
+$icons-site: map-merge($icons-site, ("icon-facebook": "\e901"))
+$icons-site: map-merge($icons-site, ("icon-external": "\e902"))
+$icons-site: map-merge($icons-site, ("icon-youtube": "\e903"))
