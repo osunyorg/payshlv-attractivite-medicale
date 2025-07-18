@@ -215,6 +215,29 @@ footer#document-footer
             .block-title
                 @include h2
                 color: $site-green
+            .links
+                padding-top: space(5)
+                li
+                    &:first-child::before
+                        background-image: url('/assets/images/shapes/link-green.svg')
+                    &:nth-child(2)::before
+                        background-image: url('/assets/images/shapes/link-orange.svg')
+                    &:nth-child(3)::before
+                        background-image: url('/assets/images/shapes/link-yellow.svg')
+                    &::before
+                        background:
+                            repeat: no-repeat
+                            size: contain
+                        content: ''
+                        height: 100%
+                        left: 0
+                        position: absolute
+                        top: space(-5)
+                        width: 100%
+                @include media-breakpoint-up(desktop)
+                    padding-top: space(8)
+                    li::before
+                        top: space(-8)
     &.full-width .block-links 
         @include media-breakpoint-up(desktop)
             .top
