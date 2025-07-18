@@ -219,8 +219,8 @@ footer#document-footer
         @include media-breakpoint-up(desktop)
             .top
                 display: block
-            .block-title
-                width: columns(7)
+                .block-title
+                    width: columns(7)
 // BLOCKS
 // features
 .block-features
@@ -270,3 +270,18 @@ footer#document-footer
         @include in-page-without-sidebar
             padding-left: 0
             width: columns(8)
+
+// links
+.block-links
+    li
+        .link-content
+            padding: 0
+            margin-top: space(8)
+            a
+                @include h3
+                &::after
+                    bottom: unset
+                    position: relative
+                    right: unset
+                + p
+                    margin-top: $spacing-1
