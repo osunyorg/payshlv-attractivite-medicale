@@ -56,6 +56,8 @@ footer#document-footer
         image: url('/assets/images/waves.svg')
         size: cover
         repeat: no-repeat
+    border-top: 1px solid var(--color-border)
+    padding-top: $spacing-5
     .footer-credit 
         a[target="_blank"]::after
             @include icon-site('icon-external')
@@ -80,6 +82,7 @@ footer#document-footer
                 @include icon-site('icon-facebook')
     @include media-breakpoint-up(desktop)
         padding-bottom: space(18)
+        padding-top: $spacing-6
         .container + .container
             align-items: flex-start
         .footer-legals
