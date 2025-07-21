@@ -99,6 +99,15 @@ footer#document-footer
             &:last-child img
                 height: pxToRem(58)
 
+// TOC | table of content
+.toc-container
+    .toc-title
+        @include in-page-with-sidebar
+            color: $site-dark-green
+    .toc-pages
+        a.active
+            color: $site-blue
+            font-weight: bold
 // partners
 .phlv-partners
     @include container
@@ -364,3 +373,4 @@ footer#document-footer
                     right: unset
                 + p
                     margin-top: $spacing-1
+
