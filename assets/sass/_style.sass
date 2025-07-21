@@ -80,6 +80,8 @@ footer#document-footer
                 @include icon-site('icon-facebook')
     @include media-breakpoint-up(desktop)
         padding-bottom: space(18)
+        .container + .container
+            align-items: flex-start
         .footer-legals
             .footer-credit
                 bottom: $spacing-1
