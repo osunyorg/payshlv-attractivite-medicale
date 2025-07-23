@@ -32,6 +32,9 @@ header#document-header
                 line-height: pxToRem(24)
             @include media-breakpoint-up(xxl)
                 max-width: columns(7)
+        @include media-breakpoint-down(desktop)
+            html.has-menu-opened &
+                display: none
     &.is-sticky,
     html.is-scrolling-down &
         .phlv-partners--header
@@ -49,7 +52,11 @@ header#document-header
                         margin-right: auto
                     &:nth-child(3)
                         margin-left: auto
-
+    @include media-breakpoint-down(desktop)
+        .menu
+            max-height: 80vh
+        .upper-menu
+            top: calc(#{$header-logo-height} + calc(#{$header-nav-padding-y} * 2))
 // footer
 footer#document-footer
     background:
@@ -221,11 +228,18 @@ footer#document-footer
                 .description
                     color: $site-orange
         &-video
-            .block-content .top .block-title
-                @include h3
-                color: $site-orange
-                text-transform: none
-                font-weight: bold
+            border-top: none !important
+            margin-top: 0
+            .block-content
+                padding-bottom: 0 !important
+                padding-top: 0 !important
+                .top
+                    padding-top: 0
+                    .block-title
+                        @include h3
+                        color: $site-orange
+                        text-transform: none
+                        font-weight: bold
         &-agenda
             background-color: $site-yellow
             padding-bottom: $spacing-5
@@ -324,6 +338,10 @@ footer#document-footer
     @include in-page-without-sidebar
         ul
             @include grid(4)
+    @include media-breakpoint-down(desktop)
+        li figure picture.is-png img
+            width: columns(5)
+            max-width: unset
 
 //events
 .block-agenda
