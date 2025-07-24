@@ -1,6 +1,9 @@
 ---
 name: images.jpeg
 size: 4605
+width: 225
+height: 225
+ratio: 1.0
 format: square
 url: https://payshlv.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6IjcwYjczMTI3LTM5MzYtNDg2NC1hNDhkLTI1NjU0MWQ2YTM0NSIsInB1ciI6ImJsb2JfaWQifX0=--0a89dc3ea486c85bc27964656e550d6ec2e658a0/images.jpeg
 direct_url: https://osuny.s3.fr-par.scw.cloud/ona5wdf2ol34tayam0aa2n30w3l0
