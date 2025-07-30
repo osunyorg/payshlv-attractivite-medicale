@@ -2,33 +2,33 @@
 title: Menu principal
 items:
 - title: Pourquoi choisir le Pays HLV ?
-  target: "/pourquoi-choisir-le-pays-hlv/le-territoire/"
+  target: "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
   kind: page
   new_tab: false
   children:
   - title: Engagement territorial pour la santé
-    target: "/pourquoi-choisir-le-pays-hlv/engagement-territorial-pour-la-sante/"
+    target: "/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/pourquoi-choisir-le-pays-hlv/engagement-territorial-pour-la-sante"
-    file: content/fr/pages/pourquoi-choisir-le-pays-hlv/engagement-territorial-pour-la-sante/_index.html
+    path: "/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante"
+    file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/_index.html
   - title: Carte interactive
-    target: "/pourquoi-choisir-le-pays-hlv/carte-interactive/"
+    target: "/pourquoi-choisir-ouest-herault-sante/carte-interactive/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/pourquoi-choisir-le-pays-hlv/carte-interactive"
-    file: content/fr/pages/pourquoi-choisir-le-pays-hlv/carte-interactive/_index.html
+    path: "/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive"
+    file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive/_index.html
   - title: Découvrir le territoire
-    target: "/pourquoi-choisir-le-pays-hlv/le-territoire/"
+    target: "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
     kind: page
     new_tab: false
     children: []
     path: "/organizations"
     file: content/fr/organizations/_index.html
   - title: Liste des postes recherchés (médecins, autres professionnels)
-    target: "/pourquoi-choisir-le-pays-hlv/offres-d-emploi/"
+    target: "/pourquoi-choisir-ouest-herault-sante/offres-d-emploi/"
     kind: page
     new_tab: false
     children: []
