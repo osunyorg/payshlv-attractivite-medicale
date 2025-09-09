@@ -20,14 +20,14 @@ items:
     children: []
     path: "/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante"
     file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/_index.html
-  - title: Carte interactive
+  - title: Localisez l'offre de santé
     target: "/pourquoi-choisir-ouest-herault-sante/carte-interactive/"
     kind: page
     new_tab: false
     children: []
     path: "/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive"
     file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive/_index.html
-  - title: Liste des postes recherchés (médecins, autres professionnels)
+  - title: Offres d'installation
     target: "/pourquoi-choisir-ouest-herault-sante/offres-d-emploi/"
     kind: page
     new_tab: false
