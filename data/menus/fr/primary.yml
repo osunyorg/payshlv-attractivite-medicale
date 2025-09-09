@@ -6,13 +6,6 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Pratiquer la médecine ici
-    target: "/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante"
-    file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/_index.html
   - title: Découvrir le territoire
     target: "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
     kind: page
@@ -20,6 +13,13 @@ items:
     children: []
     path: "/organizations"
     file: content/fr/organizations/_index.html
+  - title: Pratiquer la médecine ici
+    target: "/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante"
+    file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/_index.html
   - title: Carte interactive
     target: "/pourquoi-choisir-ouest-herault-sante/carte-interactive/"
     kind: page
