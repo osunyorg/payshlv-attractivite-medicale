@@ -13,7 +13,7 @@ items:
     children: []
     path: "/organizations"
     file: content/fr/organizations/_index.html
-  - title: Pratiquer la médecine ici
+  - title: Des professionnels de santé qui s'organisent
     target: "/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/"
     kind: page
     new_tab: false
