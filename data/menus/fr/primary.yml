@@ -34,13 +34,6 @@ items:
     children: []
     path: "/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive"
     file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive/_index.html
-  - title: Offres d'installation
-    target: "/notre-accompagnement/offres-d-emploi/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/jobs"
-    file: content/fr/jobs/_index.html
   - title: Actualités
     target: "/actualites/"
     kind: page
@@ -76,13 +69,13 @@ items:
     children: []
     path: "/pages/notre-accompagnement/avantages-financiers-a-linstallation"
     file: content/fr/pages/notre-accompagnement/avantages-financiers-a-linstallation/_index.html
-  - title: Ressources
-    target: "/notre-accompagnement/partenaires/"
+  - title: Offres d'installation
+    target: "/notre-accompagnement/offres-d-emploi/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/notre-accompagnement/partenaires"
-    file: content/fr/pages/notre-accompagnement/partenaires/_index.html
+    path: "/jobs"
+    file: content/fr/jobs/_index.html
   path: "/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles"
   file: content/fr/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
 - title: Agenda
