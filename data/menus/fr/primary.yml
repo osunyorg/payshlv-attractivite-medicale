@@ -27,7 +27,7 @@ items:
     children: []
     path: "/pages/temoignages"
     file: content/fr/pages/temoignages/_index.html
-  - title: Localisez l'offre de santé
+  - title: Une offre de santé étoffée
     target: "/pourquoi-choisir-ouest-herault-sante/carte-interactive/"
     kind: page
     new_tab: false
@@ -35,7 +35,7 @@ items:
     path: "/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive"
     file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive/_index.html
   - title: Offres d'installation
-    target: "/pourquoi-choisir-ouest-herault-sante/offres-d-emploi/"
+    target: "/notre-accompagnement/offres-d-emploi/"
     kind: page
     new_tab: false
     children: []
