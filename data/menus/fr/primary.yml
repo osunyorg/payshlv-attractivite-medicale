@@ -10,9 +10,23 @@ items:
     target: "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
     kind: page
     new_tab: false
-    children: []
+    children:
+    - title: Actualités
+      target: "/actualites/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/posts"
+      file: content/fr/posts/_index.html
     path: "/organizations"
     file: content/fr/organizations/_index.html
+  - title: Une offre de santé étoffée
+    target: https://attractivite-medicale.payshlv.osuny.site/carte-interactive/
+    kind: url
+    new_tab: false
+    children: []
+    path: "/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive"
+    file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive/_index.html
   - title: Des professionnels de santé qui s'organisent
     target: "/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/"
     kind: page
@@ -27,20 +41,6 @@ items:
     children: []
     path: "/pages/temoignages"
     file: content/fr/pages/temoignages/_index.html
-  - title: Une offre de santé étoffée
-    target: https://attractivite-medicale.payshlv.osuny.site/carte-interactive/
-    kind: url
-    new_tab: false
-    children: []
-    path: "/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive"
-    file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive/_index.html
-  - title: Actualités
-    target: "/actualites/"
-    kind: page
-    new_tab: false
-    children: []
-    path: "/posts"
-    file: content/fr/posts/_index.html
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Notre accompagnement
