@@ -28,8 +28,8 @@ items:
     path: "/pages/temoignages"
     file: content/fr/pages/temoignages/_index.html
   - title: Une offre de santé étoffée
-    target: "/pourquoi-choisir-ouest-herault-sante/carte-interactive/"
-    kind: page
+    target: https://attractivite-medicale.payshlv.osuny.site/carte-interactive/
+    kind: url
     new_tab: false
     children: []
     path: "/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive"
