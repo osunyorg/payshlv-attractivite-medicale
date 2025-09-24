@@ -28,12 +28,12 @@ items:
     path: "/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante"
     file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/_index.html
   - title: Témoignages
-    target: "/temoignages/"
+    target: "/pourquoi-choisir-ouest-herault-sante/temoignages/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/temoignages"
-    file: content/fr/pages/temoignages/_index.html
+    path: "/pages/pourquoi-choisir-ouest-herault-sante/temoignages"
+    file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/temoignages/_index.html
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Notre accompagnement
