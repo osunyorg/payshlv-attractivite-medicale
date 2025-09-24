@@ -15,13 +15,6 @@ items:
   children: []
   path: "/pages/plan-du-site"
   file: content/fr/pages/plan-du-site/_index.html
-- title: Foire aux questions
-  target: "/foire-aux-questions/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/foire-aux-questions"
-  file: content/fr/pages/foire-aux-questions/_index.html
 - title: Accessibilité
   target: "/accessibilite/"
   kind: page
@@ -29,13 +22,6 @@ items:
   children: []
   path: "/pages/accessibilite"
   file: content/fr/pages/accessibilite/_index.html
-- title: Presse
-  target: "/presse/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/presse"
-  file: content/fr/pages/presse/_index.html
 - title: Éco-conception
   target: "/eco-conception/"
   kind: page
