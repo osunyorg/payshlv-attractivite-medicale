@@ -10,3 +10,7 @@ params:
     active: true
   logo:
     header: '/assets/images/logo.svg'
+  organizations:
+    index:
+      taxonomies:
+        display: false
