@@ -7,6 +7,15 @@
 header#document-header
     display: flex
     flex-direction: column
+    .primary-menu .nav-level-1
+        li.has-children
+            > a[aria-expanded="true"]
+                background-color: $site-light-blue
+            @include media-breakpoint-up(desktop)
+                > a
+                    padding: space(4)
+                    + .dropdown-menu
+                        margin-top: 0
     .phlv-partners--header
         border-bottom: 1px solid var(--color-border)
         order: -2
@@ -40,9 +49,12 @@ header#document-header
             display: none
     .upper-menu
         .nav-level-1
-            li:last-child a
-                @extend .button
-                @extend .button--accent
+            li:last-child 
+                align-items: stretch
+                a
+                    @extend .button
+                    @extend .button--accent
+                    @include lead-hero
             @include media-breakpoint-up(desktop)
                 justify-content: space-between
                 gap: $spacing-4
@@ -51,11 +63,36 @@ header#document-header
                         margin-right: auto
                     &:nth-child(3)
                         margin-left: auto
+    @include media-breakpoint-up(desktop)
+        .nav-level-1
+            gap: $spacing-2
+            > li 
+                > a, > span, > button, .search-button span
+                    @include lead-hero
     @include media-breakpoint-down(desktop)
-        .menu
-            max-height: 80vh
         .upper-menu
             top: calc(#{$header-logo-height} + calc(#{$header-nav-padding-y} * 2))
+        .primary-menu > .container
+            padding-left: 0
+            padding-right: 0
+            .logo, .header-button
+                margin: 0 var(--grid-gutter)
+            .nav-level-1 > li 
+                > button, > a, .nav-level-2
+                    padding-left: var(--grid-gutter)
+                    padding-right: var(--grid-gutter)
+                .dropdown-menu
+                    padding-bottom: 0
+                .nav-level-2
+                    background: $color-accent
+                    padding-bottom: $spacing-1
+                    padding-top: $spacing-1
+                    a, span, button
+                        color: var(--color-background)
+        .menu
+            max-height: 80vh
+        &.has-upper-menu .menu
+            padding-top: calc(#{$header-upper-menu-mobile-height} - #{space()})
 
 // footer
 footer#document-footer
