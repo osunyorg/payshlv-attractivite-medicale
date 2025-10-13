@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: Pourquoi choisir l'Ouest Hérault ?
+- title: Notre territoire
   target: "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
   kind: page
   new_tab: false
@@ -36,7 +36,7 @@ items:
     file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/temoignages/_index.html
   path: "/organizations"
   file: content/fr/organizations/_index.html
-- title: Notre accompagnement
+- title: S'installer chez nous
   target: "/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/"
   kind: page
   new_tab: false
@@ -71,14 +71,14 @@ items:
     file: content/fr/jobs/_index.html
   path: "/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles"
   file: content/fr/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
-- title: Ressources utiles
-  target: "/"
+- title: Offres d'installation
+  target: "/notre-accompagnement/offres-d-emploi/"
   kind: page
   new_tab: false
   children: []
-  path: "/exhibitions"
-  file: content/fr/exhibitions/_index.html
-- title: Agenda
+  path: "/jobs"
+  file: content/fr/jobs/_index.html
+- title: Agenda Santé
   target: "/agenda/"
   kind: page
   new_tab: false
