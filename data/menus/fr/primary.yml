@@ -63,7 +63,7 @@ items:
     path: "/pages/notre-accompagnement/avantages-financiers-a-linstallation"
     file: content/fr/pages/notre-accompagnement/avantages-financiers-a-linstallation/_index.html
   - title: Offres d'installation
-    target: "/notre-accompagnement/offres-d-emploi/"
+    target: "/offres-d-emploi/"
     kind: page
     new_tab: false
     children: []
@@ -72,7 +72,7 @@ items:
   path: "/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles"
   file: content/fr/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
 - title: Offres d'installation
-  target: "/notre-accompagnement/offres-d-emploi/"
+  target: "/offres-d-emploi/"
   kind: page
   new_tab: false
   children: []
