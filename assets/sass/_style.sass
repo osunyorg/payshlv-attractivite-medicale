@@ -63,6 +63,16 @@ header#document-header
                         margin-right: auto
                     &:nth-child(3)
                         margin-left: auto
+    *:focus
+        border-radius: 3px
+        outline-color: inherit
+        outline-offset: 8px
+        outline-style: dashed
+        outline-width: 1px
+
+    @media (prefers-reduced-motion: no-preference)
+        *:focus
+            transition: outline-offset $color-duration ease
     @include media-breakpoint-up(desktop)
         .nav-level-1
             gap: $spacing-2
