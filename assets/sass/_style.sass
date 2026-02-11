@@ -388,7 +388,12 @@ footer#document-footer
 .block-features
     @include in-page-without-sidebar
         ul
-            @include grid(4)
+            @include media-breakpoint-up(lg)
+                @include grid(2)
+            @include media-breakpoint-up(xl)
+                @include grid(4)
+            .name
+                @include h3
     @include media-breakpoint-down(desktop)
         li figure picture.is-png img
             width: columns(5)
