@@ -2,80 +2,109 @@
 title: Menu principal
 items:
 - title: Notre territoire
+  slug: notre-territoire
   target: "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
   kind: page
   new_tab: false
   children:
   - title: Un territoire à découvrir
+    slug: un-territoire-a-decouvrir
     target: "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/organizations"
     file: content/fr/organizations/_index.html
   - title: Une offre de santé étoffée
+    slug: une-offre-de-sante-etoffee
     target: "/pourquoi-choisir-ouest-herault-sante/carte-interactive/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive"
     file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/carte-interactive/_index.html
   - title: Des professionnels de santé qui s'organisent
+    slug: des-professionnels-de-sante-qui-s-organisent
     target: "/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante"
     file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/_index.html
   - title: Témoignages
+    slug: temoignages
     target: "/pourquoi-choisir-ouest-herault-sante/temoignages/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/pourquoi-choisir-ouest-herault-sante/temoignages"
     file: content/fr/pages/pourquoi-choisir-ouest-herault-sante/temoignages/_index.html
+  descendants_targets:
+  - "/pourquoi-choisir-ouest-herault-sante/carte-interactive/"
+  - "/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/"
+  - "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
+  - "/pourquoi-choisir-ouest-herault-sante/temoignages/"
   path: "/organizations"
   file: content/fr/organizations/_index.html
 - title: Notre accueil
+  slug: notre-accueil
   target: "/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/"
   kind: page
   new_tab: false
   children:
   - title: Guichet d'accueil
+    slug: guichet-d-accueil
     target: "/notre-accompagnement/service-sur-mesure/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/notre-accompagnement/service-sur-mesure"
     file: content/fr/pages/notre-accompagnement/service-sur-mesure/_index.html
   - title: Ressources administratives
+    slug: ressources-administratives
     target: "/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles"
     file: content/fr/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
   - title: Avantages financiers à l'installation
+    slug: avantages-financiers-a-l-installation
     target: "/notre-accompagnement/avantages-financiers-a-linstallation/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/notre-accompagnement/avantages-financiers-a-linstallation"
     file: content/fr/pages/notre-accompagnement/avantages-financiers-a-linstallation/_index.html
+  descendants_targets:
+  - "/notre-accompagnement/avantages-financiers-a-linstallation/"
+  - "/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/"
+  - "/notre-accompagnement/service-sur-mesure/"
   path: "/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles"
   file: content/fr/pages/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/_index.html
 - title: Offres d'installation
+  slug: offres-d-installation
   target: "/offres-d-emploi/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/jobs"
   file: content/fr/jobs/_index.html
 - title: Agenda Santé
+  slug: agenda-sante
   target: "/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 

@@ -2,8 +2,10 @@
 title: Liens sociaux
 items:
 - title: Contactez-nous par mail
+  slug: contactez-nous-par-mail
   target: mailto:laure.abadie@payshlv.com
   kind: url
   new_tab: false
   children: []
+  descendants_targets: []
 
