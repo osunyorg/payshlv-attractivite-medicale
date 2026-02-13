@@ -4,6 +4,7 @@ removePathAccents: true
 pagination:
   pagerSize: 30
 params:
+  plausible: www.ouest-herault-sante.fr
   summary:
     position: hero
   search:
