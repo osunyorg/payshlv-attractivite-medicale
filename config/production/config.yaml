@@ -7,6 +7,11 @@ osuny:
   website:
     id: 70832a72-9248-4c27-8a15-1b86612a8b5d
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "ouest-herault-sante.fr"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
