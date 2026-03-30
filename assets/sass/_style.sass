@@ -259,6 +259,8 @@ footer#document-footer
                     padding-bottom: 0
                     padding-top: 0
         &-key_figures
+            + *:not([class*="--accent_background"], [class*="--alt_background"])
+                padding-top: var(--block-space-y)
             ul
                 @include grid(2)
                 @include grid(6, desktop)
@@ -446,6 +448,9 @@ footer#document-footer
         @include in-page-without-sidebar
             padding-left: 0
             width: columns(8)
+        @include media-breakpoint-up(desktop)
+            blockquote p
+                font-size: $quote-size-desktop !important
 
 // links
 .block-links
