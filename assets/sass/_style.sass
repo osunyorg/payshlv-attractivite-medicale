@@ -389,7 +389,7 @@ footer#document-footer
 // features
 .block-features
     @include in-page-without-sidebar
-        ul
+        .features
             @include media-breakpoint-up(lg)
                 @include grid(2)
             @include media-breakpoint-up(xl)
@@ -444,10 +444,7 @@ footer#document-footer
 
 // testimonials
 .block-testimonials
-    .testimonial 
-        @include in-page-without-sidebar
-            padding-left: 0
-            width: columns(8)
+    .testimonial
         @include media-breakpoint-up(desktop)
             blockquote p
                 font-size: $quote-size-desktop !important
