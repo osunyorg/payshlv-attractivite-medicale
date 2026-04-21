@@ -388,18 +388,22 @@ footer#document-footer
 
 // features
 .block-features
-    @include in-page-without-sidebar
+    &--grid
         .features
-            @include media-breakpoint-up(lg)
-                @include grid(2)
-            @include media-breakpoint-up(xl)
-                @include grid(4)
-            .name
-                @include h3
-    @include media-breakpoint-down(desktop)
-        li figure picture.is-png img
-            width: columns(5)
-            max-width: unset
+            @include in-page-without-sidebar
+                @include media-breakpoint-up(lg)
+                    @include grid(2)
+                @include media-breakpoint-up(xl)
+                    @include grid(4)
+                .name
+                    @include h3
+            
+            @include media-breakpoint-down(desktop)
+                .feature
+                    figure.media--icon 
+                        img
+                            width: columns(5)
+                            max-width: unset
 
 //events
 .block-agenda
