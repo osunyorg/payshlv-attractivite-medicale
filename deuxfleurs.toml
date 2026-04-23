@@ -13,3 +13,380 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/categories/structures-de-sante/centre-hospitalier/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/categories/structures-de-sante/centre-hospitalier/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-thezan-les-beziers/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-thezan-les-beziers/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/clinique-ster/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/clinique-ster/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/centre-hospitalier-bedarieux/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-bedarieux/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-des-monts-dorb/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-des-monts-dorb/"
+
+[[redirects]]
+from = "/pourquoi-choisir-ouest-herault-sante/offres-d-emploi/2025/msp-st-pons/"
+to = "/offres-d-emploi/2025/msp-st-pons/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/communaute-de-communes-avants-monts/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/communaute-de-communes-avants-monts/"
+
+[[redirects]]
+from = "/le-territoire/msp-des-monts-dorb/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-des-monts-dorb/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/polyclinique-des-3-vallees/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/polyclinique-des-3-vallees/"
+
+[[redirects]]
+from = "/engagement/"
+to = "/actualites/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/communaute-de-communes-grand-orb/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/communaute-de-communes-grand-orb/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/maison-medicale-de-murviel-les-beziers/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/maison-medicale-de-murviel-les-beziers/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/centre-hospitalier-coste-florel/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-coste-floret/"
+
+[[redirects]]
+from = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-coste-florel/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-coste-floret/"
+
+[[redirects]]
+from = "/le-territoire/msp-du-bousquet-dorb/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-du-bousquet-dorb/"
+
+[[redirects]]
+from = "/contact/nous-contacter/"
+to = "/nous-contacter/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-thym-et-romarin/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-thym-et-romarin/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/carte-interactive/"
+to = "/pourquoi-choisir-ouest-herault-sante/carte-interactive/"
+
+[[redirects]]
+from = "/le-territoire/communaute-de-communes-grand-orb/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/communaute-de-communes-grand-orb/"
+
+[[redirects]]
+from = "/le-territoire/communaute-de-communnes-sud-herault/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/communaute-de-communes-sud-herault/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-orb-sante/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-orb-sante/"
+
+[[redirects]]
+from = "/lieux/centre-hospitalier-saint-pons-centre-specialise-du-haut-languedoc-ssr-addictologie-ch-st-pons/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-saint-pons/"
+
+[[redirects]]
+from = "/le-territoire/centre-hospitalier-saint-pons/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-saint-pons/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-des-hauts-cantons/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-des-hauts-cantons/"
+
+[[redirects]]
+from = "/pourquoi-choisir-ouest-herault-sante/offres-d-emploi/"
+to = "/offres-d-emploi/"
+
+[[redirects]]
+from = "/offres-d-emploi/2025/test-emploi1/"
+to = "/offres-d-emploi/2025/msp-st-pons/"
+
+[[redirects]]
+from = "/le-territoire/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
+
+[[redirects]]
+from = "/lieux/polyclinique-des-3-vallees/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/polyclinique-des-3-vallees/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/communautes-de-communes-minervois-caroux/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/communautes-de-communes-minervois-caroux/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/categories/communaute-de-communes/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/categories/communaute-de-communes/"
+
+[[redirects]]
+from = "/pourquoi-choisir-ouest-herault-sante/le-territoire/communaute-de-communnes-sud-herault/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/communaute-de-communes-sud-herault/"
+
+[[redirects]]
+from = "/organisations/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/engagement-territorial-pour-la-sante/"
+to = "/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/"
+
+[[redirects]]
+from = "/le-territoire/centre-hospitalier-bedarieux/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-bedarieux/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/communaute-de-communnes-sud-herault/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/communaute-de-communes-sud-herault/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-pole-sante-magalas/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-pole-sante-magalas/"
+
+[[redirects]]
+from = "/le-territoire/msp-des-7-pechs/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-des-7-pechs/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/categories/structures-de-sante/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/categories/structures-de-sante/"
+
+[[redirects]]
+from = "/agenda/2026/semi-marathon-de-la-sante-1/"
+to = "/agenda/2026/conference-violences-intra-familiales/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-du-bousquet-dorb/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-du-bousquet-dorb/"
+
+[[redirects]]
+from = "/le-territoire/msp-dolonzac/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-dolonzac/"
+
+[[redirects]]
+from = "/lieux/clinique-ster-centre-europeen-de-reeducation-des-grands-brules/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/clinique-ster/"
+
+[[redirects]]
+from = "/le-territoire/categories/communaute-de-communes/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/categories/communaute-de-communes/"
+
+[[redirects]]
+from = "/engagement-territorial-pour-la-sante/"
+to = "/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/"
+
+[[redirects]]
+from = "/notre-accompagnement/offres-d-emploi/2025/msp-st-pons/"
+to = "/offres-d-emploi/2025/msp-st-pons/"
+
+[[redirects]]
+from = "/le-territoire/maison-de-sante-dolargues/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/maison-de-sante-dolargues/"
+
+[[redirects]]
+from = "/olivia-barthelemy/"
+to = "/equipe/olivia-barthelemy/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-de-laurens/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-de-laurens/"
+
+[[redirects]]
+from = "/temoignages/"
+to = "/pourquoi-choisir-ouest-herault-sante/temoignages/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/centre-de-sante-de-capestang/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-de-sante-de-capestang/"
+
+[[redirects]]
+from = "/le-territoire/msp-thezan-les-beziers/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-thezan-les-beziers/"
+
+[[redirects]]
+from = "/le-territoire/polyclinique-des-3-vallees/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/polyclinique-des-3-vallees/"
+
+[[redirects]]
+from = "/le-territoire/communautes-de-communes-minervois-caroux/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/communautes-de-communes-minervois-caroux/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/categories/structures-de-sante/polyclinique/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/categories/structures-de-sante/polyclinique/"
+
+[[redirects]]
+from = "/offres-d-emploi/2025/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1/"
+to = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1/"
+
+[[redirects]]
+from = "/le-territoire/communaute-de-communes-avants-monts/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/communaute-de-communes-avants-monts/"
+
+[[redirects]]
+from = "/olivia-barthelemy/actualites/"
+to = "/equipe/olivia-barthelemy/actualites/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-des-7-pechs/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-des-7-pechs/"
+
+[[redirects]]
+from = "/le-territoire/msp-thym-et-romarin/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-thym-et-romarin/"
+
+[[redirects]]
+from = "/carte-interactive/"
+to = "/pourquoi-choisir-ouest-herault-sante/carte-interactive/"
+
+[[redirects]]
+from = "/medecin-en-pays-haut-languedoc-et-vignobles/"
+to = "/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/avantages-financiers-a-linstallation/"
+to = "/notre-accompagnement/avantages-financiers-a-linstallation/"
+
+[[redirects]]
+from = "/avantages-financiers-a-linstallation/"
+to = "/notre-accompagnement/avantages-financiers-a-linstallation/"
+
+[[redirects]]
+from = "/le-territoire/msp-orb-sante/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-orb-sante/"
+
+[[redirects]]
+from = "/le-territoire/msp-calypso/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-calypso/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/categories/structures-de-sante/maison-de-sante/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/categories/structures-de-sante/maison-de-sante/"
+
+[[redirects]]
+from = "/rachel-troisi/actualites/"
+to = "/equipe/rachel-troisi/actualites/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/offres-d-emploi/"
+to = "/offres-d-emploi/"
+
+[[redirects]]
+from = "/rachel-troisi/"
+to = "/equipe/rachel-troisi/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-terres-de-vignes/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-terres-de-vignes/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/centre-hospitalier-saint-pons/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-saint-pons/"
+
+[[redirects]]
+from = "/notre-accompagnement/offres-d-emploi/"
+to = "/offres-d-emploi/"
+
+[[redirects]]
+from = "/le-territoire/clinique-ster/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/clinique-ster/"
+
+[[redirects]]
+from = "/le-territoire/centre-de-sante-de-capestang/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-de-sante-de-capestang/"
+
+[[redirects]]
+from = "/le-territoire/clinique-ster-centre-europeen-de-reeducation-des-grands-brules/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/clinique-ster/"
+
+[[redirects]]
+from = "/lieux/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/maison-de-sante-dolargues/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/maison-de-sante-dolargues/"
+
+[[redirects]]
+from = "/le-territoire/maison-medicale-de-murviel-les-beziers/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/maison-medicale-de-murviel-les-beziers/"
+
+[[redirects]]
+from = "/le-territoire/msp-des-hauts-cantons/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-des-hauts-cantons/"
+
+[[redirects]]
+from = "/le-territoire/msp-terres-de-vignes/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-terres-de-vignes/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-calypso/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-calypso/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/service-sur-mesure/"
+to = "/notre-accompagnement/service-sur-mesure/"
+
+[[redirects]]
+from = "/le-territoire/centre-hospitalier-coste-florel/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-coste-floret/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/medecin-en-pays-haut-languedoc-et-vignobles/"
+to = "/notre-accompagnement/medecin-en-pays-haut-languedoc-et-vignobles/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/offres-d-emploi/2025/msp-st-pons/"
+to = "/offres-d-emploi/2025/msp-st-pons/"
+
+[[redirects]]
+from = "/service-sur-mesure/"
+to = "/notre-accompagnement/service-sur-mesure/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/"
+to = "/pourquoi-choisir-ouest-herault-sante/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/maison-medicale-de-bedarieux/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/maison-medicale-de-bedarieux/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-dolonzac/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-dolonzac/"
+
+[[redirects]]
+from = "/le-territoire/maison-medicale-de-bedarieux/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/maison-medicale-de-bedarieux/"
+
+[[redirects]]
+from = "/le-territoire/centre-hospitalier-saint-pons-centre-specialise-du-haut-languedoc-ssr-addictologie-ch-st-pons/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-saint-pons/"
+
+[[redirects]]
+from = "/le-territoire/msp-de-laurens/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-de-laurens/"
+
+[[redirects]]
+from = "/pourquoi-choisir-le-pays-hlv/le-territoire/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
+
+[[redirects]]
+from = "/le-territoire/msp-pole-sante-magalas/"
+to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-pole-sante-magalas/"
+
