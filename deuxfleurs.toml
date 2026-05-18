@@ -80,7 +80,7 @@ to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-cos
 
 [[redirects]]
 from = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1-1-1-1-1/index.html"
-to = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-bedarieux-st-pons-de-thomieres/"
+to = "/offres-d-emploi/2026/medecins-pmi-bedarieux-st-pons-de-thomieres/"
 
 [[redirects]]
 from = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-coste-florel/index.html"
@@ -217,6 +217,10 @@ to = "/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante
 [[redirects]]
 from = "/notre-accompagnement/offres-d-emploi/2025/msp-st-pons/index.html"
 to = "/offres-d-emploi/2025/msp-st-pons/"
+
+[[redirects]]
+from = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-bedarieux-st-pons-de-thomieres/index.html"
+to = "/offres-d-emploi/2026/medecins-pmi-bedarieux-st-pons-de-thomieres/"
 
 [[redirects]]
 from = "/le-territoire/maison-de-sante-dolargues/index.html"
