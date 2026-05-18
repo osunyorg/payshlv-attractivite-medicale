@@ -51,6 +51,10 @@ from = "/pourquoi-choisir-le-pays-hlv/le-territoire/communaute-de-communes-avant
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/communaute-de-communes-avants-monts/"
 
 [[redirects]]
+from = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1-1/index.html"
+to = "/offres-d-emploi/2026/medecin-generaliste-centre-municipal-de-sante-capestang/"
+
+[[redirects]]
 from = "/le-territoire/msp-des-monts-dorb/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-des-monts-dorb/"
 
@@ -137,6 +141,10 @@ to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
 [[redirects]]
 from = "/lieux/polyclinique-des-3-vallees/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/polyclinique-des-3-vallees/"
+
+[[redirects]]
+from = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1/index.html"
+to = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-terre-de-vignes/"
 
 [[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/communautes-de-communes-minervois-caroux/index.html"
@@ -248,7 +256,7 @@ to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/categories/structures-
 
 [[redirects]]
 from = "/offres-d-emploi/2025/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1/index.html"
-to = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1/"
+to = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-terre-de-vignes/"
 
 [[redirects]]
 from = "/le-territoire/communaute-de-communes-avants-monts/index.html"
