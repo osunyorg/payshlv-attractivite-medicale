@@ -19,6 +19,10 @@ from = "/pourquoi-choisir-le-pays-hlv/le-territoire/categories/structures-de-san
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/categories/structures-de-sante/centre-hospitalier/"
 
 [[redirects]]
+from = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1-2-1/index.html"
+to = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-murviel-les-beziers/"
+
+[[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-thezan-les-beziers/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-thezan-les-beziers/"
 
@@ -33,6 +37,10 @@ to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-bed
 [[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-des-monts-dorb/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-des-monts-dorb/"
+
+[[redirects]]
+from = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1-1-1/index.html"
+to = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-orb-sante/"
 
 [[redirects]]
 from = "/pourquoi-choisir-ouest-herault-sante/offres-d-emploi/2025/msp-st-pons/index.html"
@@ -65,6 +73,10 @@ to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/maison-medicale-de-mur
 [[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/centre-hospitalier-coste-florel/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-coste-floret/"
+
+[[redirects]]
+from = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1-1-1-1-1/index.html"
+to = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-bedarieux-st-pons-de-thomieres/"
 
 [[redirects]]
 from = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-coste-florel/index.html"
@@ -161,6 +173,10 @@ to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-pole-sante-magalas
 [[redirects]]
 from = "/le-territoire/msp-des-7-pechs/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-des-7-pechs/"
+
+[[redirects]]
+from = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1-2/index.html"
+to = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-calypso/"
 
 [[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/categories/structures-de-sante/index.html"
@@ -293,6 +309,10 @@ to = "/equipe/rachel-troisi/"
 [[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-terres-de-vignes/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-terres-de-vignes/"
+
+[[redirects]]
+from = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1-1-1-1/index.html"
+to = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-le-caudejo/"
 
 [[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/centre-hospitalier-saint-pons/index.html"
