@@ -163,6 +163,10 @@ from = "/organisations/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
 
 [[redirects]]
+from = "/equipe/rachel-troisi/actualites/index.html"
+to = "/equipe/ouest-herault-sante/actualites/"
+
+[[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/engagement-territorial-pour-la-sante/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/engagement-territorial-pour-la-sante/"
 
@@ -299,6 +303,10 @@ from = "/le-territoire/msp-orb-sante/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-orb-sante/"
 
 [[redirects]]
+from = "/equipe/rachel-troisi/index.html"
+to = "/equipe/ouest-herault-sante/"
+
+[[redirects]]
 from = "/le-territoire/msp-calypso/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-calypso/"
 
@@ -308,7 +316,7 @@ to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/categories/structures-
 
 [[redirects]]
 from = "/rachel-troisi/actualites/index.html"
-to = "/equipe/rachel-troisi/actualites/"
+to = "/equipe/ouest-herault-sante/actualites/"
 
 [[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/offres-d-emploi/index.html"
@@ -316,7 +324,7 @@ to = "/offres-d-emploi/"
 
 [[redirects]]
 from = "/rachel-troisi/index.html"
-to = "/equipe/rachel-troisi/"
+to = "/equipe/ouest-herault-sante/"
 
 [[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-terres-de-vignes/index.html"
