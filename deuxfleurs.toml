@@ -99,6 +99,10 @@ from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-thym-et-romarin/index.ht
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/msp-thym-et-romarin/"
 
 [[redirects]]
+from = "/equipe/sante-ouest-herault/actualites/index.html"
+to = "/equipe/ouest-herault-sante/actualites/"
+
+[[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/carte-interactive/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/carte-interactive/"
 
@@ -357,6 +361,10 @@ to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/clinique-ster/"
 [[redirects]]
 from = "/lieux/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/"
+
+[[redirects]]
+from = "/equipe/sante-ouest-herault/index.html"
+to = "/equipe/ouest-herault-sante/"
 
 [[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/maison-de-sante-dolargues/index.html"
