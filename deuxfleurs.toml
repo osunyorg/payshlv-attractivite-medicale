@@ -79,6 +79,10 @@ from = "/pourquoi-choisir-le-pays-hlv/le-territoire/centre-hospitalier-coste-flo
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-hospitalier-coste-floret/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/annonce-medecins-pmipdf/"
+
+[[redirects]]
 from = "/offres-d-emploi/2026/medecin-generaliste-maison-de-sante-pluriprofessionnelle-des-monts-d-orb-1-1-1-1-1/index.html"
 to = "/offres-d-emploi/2026/medecins-pmi-bedarieux-st-pons-de-thomieres/"
 
