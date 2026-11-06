@@ -251,6 +251,10 @@ from = "/temoignages/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/temoignages/"
 
 [[redirects]]
+from = "/actualités/2026-10-11-prevention-sécurité-routière-séniors/index.html"
+to = "/actualites/2026-11-06-conference-echanges-sur-les-violences-intra-familiales-1-1/"
+
+[[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/centre-de-sante-de-capestang/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-de-sante-de-capestang/"
 
@@ -409,10 +413,6 @@ to = "/offres-d-emploi/2025/msp-st-pons/"
 [[redirects]]
 from = "/service-sur-mesure/index.html"
 to = "/notre-accompagnement/service-sur-mesure/"
-
-[[redirects]]
-from = "/actualités/2026-10-11-prevention-sécurité-routière-séniors/index.html"
-to = "/actualites/2026-11-06-conference-echanges-sur-les-violences-intra-familiales-1-1/"
 
 [[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/index.html"
