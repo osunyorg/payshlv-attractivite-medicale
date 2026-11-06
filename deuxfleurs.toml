@@ -251,10 +251,6 @@ from = "/temoignages/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/temoignages/"
 
 [[redirects]]
-from = "/actualités/2026-10-11-prevention-sécurité-routière-séniors/index.html"
-to = "/actualites/2026-11-06-prevention-routiere-pour-seniors/"
-
-[[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/centre-de-sante-de-capestang/index.html"
 to = "/pourquoi-choisir-ouest-herault-sante/le-territoire/centre-de-sante-de-capestang/"
 
@@ -337,6 +333,10 @@ to = "/offres-d-emploi/"
 [[redirects]]
 from = "/rachel-troisi/index.html"
 to = "/equipe/ouest-herault-sante/"
+
+[[redirects]]
+from = "/agenda/2026-11-06-prevention-routiere-pour-seniors/index.html"
+to = "/actualites/2026-11-06-prevention-routiere-pour-seniors/"
 
 [[redirects]]
 from = "/pourquoi-choisir-le-pays-hlv/le-territoire/msp-terres-de-vignes/index.html"
